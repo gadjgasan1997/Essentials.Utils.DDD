@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutionItems", "solutionItems", "{86A148B6-DABE-4DE0-9EE3-3AA9ABB15EC3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13FFD8C7-CC44-4969-8C0D-4B14EC0928DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essentials.DDD.Core", "src\Essentials.DDD.Core\Essentials.DDD.Core.csproj", "{3F0A30D5-6F4D-493A-92D1-6F2768C31435}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{F0300927-5905-4E53-87AC-818C0DC3D5CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Essentials.DDD.Core", "Essentials.DDD.Core", "{03D04255-BDBD-421A-94FD-AA4F74718ECA}"
+	ProjectSection(SolutionItems) = preProject
+		publish\Essentials.DDD.Core\publish.cmd = publish\Essentials.DDD.Core\publish.cmd
+		publish\Essentials.DDD.Core\settings.cmd = publish\Essentials.DDD.Core\settings.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Essentials.DDD.Generators", "Essentials.DDD.Generators", "{10D417AF-9DD9-4920-B144-A1A52E8C31E4}"
+	ProjectSection(SolutionItems) = preProject
+		publish\Essentials.DDD.Generators\publish.cmd = publish\Essentials.DDD.Generators\publish.cmd
+		publish\Essentials.DDD.Generators\settings.cmd = publish\Essentials.DDD.Generators\settings.cmd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essentials.DDD.Generators", "src\Essentials.DDD.Generators\Essentials.DDD.Generators.csproj", "{D0D33794-2A6E-49F3-BB9B-A93FA66E7B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essentials.DDD.Sample", "src\Essentials.DDD.Sample\Essentials.DDD.Sample.csproj", "{0F2B8C05-0EC7-4376-A11C-975F4CB0FF93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F0A30D5-6F4D-493A-92D1-6F2768C31435} = {13FFD8C7-CC44-4969-8C0D-4B14EC0928DD}
+		{03D04255-BDBD-421A-94FD-AA4F74718ECA} = {F0300927-5905-4E53-87AC-818C0DC3D5CB}
+		{10D417AF-9DD9-4920-B144-A1A52E8C31E4} = {F0300927-5905-4E53-87AC-818C0DC3D5CB}
+		{D0D33794-2A6E-49F3-BB9B-A93FA66E7B57} = {13FFD8C7-CC44-4969-8C0D-4B14EC0928DD}
+		{0F2B8C05-0EC7-4376-A11C-975F4CB0FF93} = {13FFD8C7-CC44-4969-8C0D-4B14EC0928DD}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F0A30D5-6F4D-493A-92D1-6F2768C31435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0A30D5-6F4D-493A-92D1-6F2768C31435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0A30D5-6F4D-493A-92D1-6F2768C31435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0A30D5-6F4D-493A-92D1-6F2768C31435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D33794-2A6E-49F3-BB9B-A93FA66E7B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D33794-2A6E-49F3-BB9B-A93FA66E7B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D33794-2A6E-49F3-BB9B-A93FA66E7B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D33794-2A6E-49F3-BB9B-A93FA66E7B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2B8C05-0EC7-4376-A11C-975F4CB0FF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2B8C05-0EC7-4376-A11C-975F4CB0FF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2B8C05-0EC7-4376-A11C-975F4CB0FF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2B8C05-0EC7-4376-A11C-975F4CB0FF93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

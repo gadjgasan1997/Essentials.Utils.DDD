@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference
+              Include="..\Essentials.DDD.Generators\Essentials.DDD.Generators.csproj"
+              ReferenceOutputAssembly="true"
+              OutputItemType="Analyzer" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Essentials.Serialization" Version="1.2.0" />
+      <PackageReference Include="Essentials.Utils" Version="1.1.5" />
+    </ItemGroup>
+
+</Project>
